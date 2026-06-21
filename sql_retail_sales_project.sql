@@ -17,9 +17,9 @@ CREATE TABLE retail_sales
     age INT,
     category VARCHAR(15),
     quantity INT,
-    price_per_unit FLOAT,
-    cogs FLOAT,
-    total_sale FLOAT
+    price_per_unit DECIMAL(10,2),
+    cogs DECIMAL(5,2),
+    total_sale DECIMAL(7,2)
 );
 
 SELECT TOP 10 *
