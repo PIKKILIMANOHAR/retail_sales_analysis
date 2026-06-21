@@ -1,8 +1,8 @@
 -- SQL Retail Sales Analysis - P1
-CREATE DATABASE sql_project_p2;
+CREATE DATABASE sql_project_p1;
 GO
 
-USE sql_project_p2;
+USE sql_project_p1;
 GO
 IF OBJECT_ID('retail_sales', 'U') IS NOT NULL
     DROP TABLE retail_sales;
